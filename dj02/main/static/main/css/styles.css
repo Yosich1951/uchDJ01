@@ -1,0 +1,32 @@
+/* Общие стили для сайта */
+body {
+    background-color: #f8f9fa; /* Светлый фон для всей страницы */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Стили для боковой панели */
+.custom-aside {
+    border-right: 1px solid #dee2e6; /* Легкая рамка справа */
+}
+
+.custom-aside .nav-link {
+    color: #343a40; /* Цвет ссылок */
+    font-weight: 500; /* Полужирный текст */
+}
+
+.custom-aside .nav-link.active {
+    background-color: #007bff; /* Синий фон для активной ссылки */
+    color: #fff; /* Белый текст для активной ссылки */
+    border-radius: 0.25rem; /* Скругленные углы для активной ссылки */
+}
+
+.custom-aside .nav-link:hover {
+    color: #007bff; /* Цвет текста при наведении */
+}
+
+/* Стили для основного контента */
+main {
+    background-color: #ffffff; /* Белый фон для основного контента */
+    border-radius: 0.25rem; /* Скругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
