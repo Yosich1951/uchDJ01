@@ -4,7 +4,8 @@ from django.http import HttpResponse
 # Create your views here.
 # На главную страницу
 def index(request):
-    return render(request, 'main/index.html')
+    data = {'caption':"CatDjango"}
+    return render(request, 'main/index.html', data)
 
 # На другую страницу
 def new(request):
