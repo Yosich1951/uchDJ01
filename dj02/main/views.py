@@ -11,3 +11,19 @@ def index(request):
 def new(request):
     return render(request, 'main/new.html')
 
+# На третью страницу
+def new3(request):
+    return render(request, 'main/third.html')
+
+# На четвертую страницу
+def new4(request):
+    return render(request, 'main/fourth.html')
+
+# На страницу О нас
+def about(request):
+    return render(request, 'main/about.html')
+
+def contact(request):
+    return render(request, 'main/contact.html')
+
+
